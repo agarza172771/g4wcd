@@ -1,0 +1,4 @@
+/home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/build/CMakeFiles/sim.dir
+/home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/build/CMakeFiles/Simulation.dir
+/home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/build/CMakeFiles/edit_cache.dir
+/home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/build/CMakeFiles/rebuild_cache.dir
