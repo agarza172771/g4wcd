@@ -9,7 +9,7 @@
 MyRunAction::MyRunAction()
 {
 }
-
+// Nota
 MyRunAction::~MyRunAction()
 {}
 
