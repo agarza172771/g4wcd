@@ -1,0 +1,39 @@
+git remote add origin https://github.com/agarza172771/G4_Adolfo
+
+
+https://github.com/agarza172771/G4_Adolfo
+
+ Host example.com
+   ForwardAgent yes
+
+
+remote "origin"
+  url = git@github.com:agarza172771/G4_Adolfo.git
+  fetch = +refs/heads/*:refs/remotes/origin/*
+  
+  
+  
+En la carpeta del proyecto
+$git init                                          //Solo al inicio del proyecto
+$git add .                                         //Para que "lea" los archivos
+$git commit -m "texto del cambio"                  //Se sigiere que para cambios importantes
+$git log --oneline                                 //Para checar el commit
+
+
+git remote set-url origin git@github.com:agarza172771/g4wcd.git        //
+
+
+
+…or create a new repository on the command line
+echo "# g4wcd" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/agarza172771/g4wcd.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/agarza172771/g4wcd.git
+git branch -M main
+git push -u origin main
