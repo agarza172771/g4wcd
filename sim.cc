@@ -31,8 +31,13 @@ int main(int argc, char** argv)
    UImanager->ApplyCommand("/vis/viewer/set/viewpointVector 2 1 1");
    UImanager->ApplyCommand("/vis/drawVolume");
    UImanager->ApplyCommand("/vis/viewer/set/autoRefresh true");
+   UImanager->ApplyCommand("/vis/scene/add/eventID");
+   UImanager->ApplyCommand("/run/beamOn 10");
    UImanager->ApplyCommand("/vis/scene/add/trajectories smooth");
    UImanager->ApplyCommand("/vis/scene/endOfEventAction accumulate");
+   
+
+   
 //   UImanager->ApplyCommand("/vis/scene/add/axes");
    
    ui -> SessionStart();

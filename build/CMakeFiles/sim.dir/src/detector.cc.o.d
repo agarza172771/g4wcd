@@ -1,7 +1,7 @@
-CMakeFiles/sim.dir/detector.cc.o: \
- /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/detector.cc \
+CMakeFiles/sim.dir/src/detector.cc.o: \
+ /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/src/detector.cc \
  /usr/include/stdc-predef.h \
- /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/detector.hh \
+ /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/include/detector.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VHit.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/globals.hh \
@@ -581,4 +581,6 @@ CMakeFiles/sim.dir/detector.cc.o: \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4GenericFileManager.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4GenericFileManager.icc \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4SystemOfUnits.hh
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4SystemOfUnits.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4UnitsTable.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4UnitsTable.icc

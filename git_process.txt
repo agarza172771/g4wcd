@@ -16,7 +16,7 @@ remote "origin"
 En la carpeta del proyecto
 $git init                                          //Solo al inicio del proyecto
 $git add .                                         //Para que "lea" los archivos
-$git commit -m "texto del cambio"                  //Se sigiere que para cambios importantes
+$git commit -m "texto del cambio"                  //Se sugiere que para cambios importantes
 $git log --oneline                                 //Para checar el commit
 
 

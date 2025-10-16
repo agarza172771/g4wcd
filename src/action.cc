@@ -16,9 +16,10 @@ void MyActionInitialization::Build() const
 	MyRunAction *runAction = new MyRunAction();
 	SetUserAction(runAction); 
 
-//NUEVO
-//	auto run = static_cast<MyRunAction*>(G4RunManager::GetRunManager()->GetNonConstCurrentRun());
-//    run->AddScintillation((G4double)fScintillationCounter);
-//    run->AddCerenkov((G4double)fCerenkovCounter);
+}
 
+void MyActionInitialization::BuildForMaster() const
+{
+    MyRunAction *runAction = new MyRunAction();
+    SetUserAction(runAction);
 }

@@ -1,11 +1,8 @@
-CMakeFiles/sim.dir/generator.cc.o: \
- /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/generator.cc \
+CMakeFiles/sim.dir/src/run.cc.o: \
+ /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/src/run.cc \
  /usr/include/stdc-predef.h \
- /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/generator.hh \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ParticleGun.hh \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/globals.hh \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ios.hh \
+ /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/include/run.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4UserRunAction.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4Types.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4GlobalConfig.hh \
  /usr/include/c++/13/complex \
@@ -190,6 +187,13 @@ CMakeFiles/sim.dir/generator.cc.o: \
  /usr/include/c++/13/bits/istream.tcc \
  /usr/include/c++/13/bits/sstream.tcc \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tls.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4Run.hh \
+ /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/vector.tcc \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/globals.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ios.hh \
  /usr/include/c++/13/iostream /usr/include/c++/13/algorithm \
  /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
@@ -239,100 +243,115 @@ CMakeFiles/sim.dir/generator.cc.o: \
  /usr/include/c++/13/bits/parse_numbers.h \
  /usr/include/c++/13/bits/std_mutex.h \
  /usr/include/c++/13/bits/unique_lock.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VPrimaryGenerator.hh \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ThreeVector.hh \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Utility/defs.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ParticleDefinition.hh \
- /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
- /usr/include/c++/13/bits/stl_vector.h \
- /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4PDefManager.hh \
- /usr/include/c++/13/stdlib.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/pwdefs.hh \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4AutoLock.hh \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4Threading.hh \
- /usr/include/c++/13/chrono /usr/include/c++/13/condition_variable \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4Profiler.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4Profiler.icc \
+ /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
+ /usr/include/c++/13/unordered_map \
+ /usr/include/c++/13/bits/unordered_map.h \
+ /usr/include/c++/13/bits/hashtable.h \
+ /usr/include/c++/13/bits/hashtable_policy.h \
+ /usr/include/c++/13/bits/enable_special_members.h \
+ /usr/include/c++/13/array /usr/include/c++/13/compare \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/PTL/Globals.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/PTL/Types.hh \
+ /usr/include/c++/13/atomic /usr/include/c++/13/bits/atomic_base.h \
+ /usr/include/c++/13/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/13/memory \
+ /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/unique_ptr.h \
  /usr/include/c++/13/bits/shared_ptr.h \
  /usr/include/c++/13/bits/shared_ptr_base.h \
  /usr/include/c++/13/bits/allocated_ptr.h \
- /usr/include/c++/13/bits/unique_ptr.h \
- /usr/include/c++/13/ext/concurrence.h /usr/include/c++/13/future \
- /usr/include/c++/13/bits/atomic_base.h \
- /usr/include/c++/13/bits/atomic_lockfree_defines.h \
- /usr/include/c++/13/bits/atomic_futex.h /usr/include/c++/13/atomic \
- /usr/include/c++/13/bits/std_function.h \
- /usr/include/c++/13/bits/std_thread.h /usr/include/c++/13/thread \
- /usr/include/c++/13/bits/this_thread_sleep.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ParticleDefinition.icc \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4PrimaryVertex.hh \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4Allocator.hh \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4AllocatorPool.hh \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4PrimaryParticle.hh \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ParticleMomentum.hh \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4SystemOfUnits.hh \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ParticleTable.hh \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ParticleTableIterator.hh \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ParticleTable.icc \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/Randomize.hh \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/Randomize.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/DualRand.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandomEngine.h \
+ /usr/include/c++/13/ext/concurrence.h \
+ /usr/include/c++/13/bits/shared_ptr_atomic.h \
+ /usr/include/c++/13/backward/auto_ptr.h \
+ /usr/include/c++/13/pstl/glue_memory_defs.h /usr/include/c++/13/utility \
+ /usr/include/c++/13/bits/stl_relops.h \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/PTL/Utility.hh \
+ /usr/include/c++/13/chrono /usr/include/c++/13/set \
+ /usr/include/c++/13/bits/stl_set.h \
+ /usr/include/c++/13/bits/stl_multiset.h \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4AnalysisManager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4GenericAnalysisManager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VAnalysisManager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4AnalysisManagerState.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4AnalysisVerbose.hh \
  /usr/include/c++/13/fstream \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandomEngine.icc \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/JamesRandom.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/MixMaxRng.h \
- /usr/include/c++/13/array /usr/include/c++/13/compare \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/MTwistEngine.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RanecuEngine.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RanluxEngine.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/Ranlux64Engine.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RanluxppEngine.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RanshiEngine.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandBinomial.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/Random.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/Random.icc \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Utility/memory.h \
- /usr/include/c++/13/memory \
- /usr/include/c++/13/bits/stl_raw_storage_iter.h \
- /usr/include/c++/13/bits/align.h \
- /usr/include/c++/13/bits/shared_ptr_atomic.h \
- /usr/include/c++/13/backward/auto_ptr.h \
- /usr/include/c++/13/pstl/glue_memory_defs.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandBinomial.icc \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandBreitWigner.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandFlat.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Utility/thread_local.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandFlat.icc \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandBreitWigner.icc \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandChiSquare.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandChiSquare.icc \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandExponential.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandExponential.icc \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandExpZiggurat.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandBit.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandBit.icc \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandGamma.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandGamma.icc \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandGauss.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandGauss.icc \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandGaussQ.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandGaussQ.icc \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandGaussZiggurat.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandGeneral.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandGeneral.icc \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandLandau.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandLandau.icc \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandPoissonQ.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandPoisson.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandPoisson.icc \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandPoissonQ.icc \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandStudentT.h \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Random/RandStudentT.icc
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VAnalysisManager.icc \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4HnManager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4BaseAnalysisManager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4Fcn.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4BinScheme.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4HnInformation.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4AnalysisUtilities.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4NtupleBookingManager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/ntuple_booking \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/cids \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/cid \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/typedefs \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/forit \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4NtupleBookingManager.icc \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VH1Manager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VH2Manager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VH3Manager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VP1Manager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VP2Manager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VNtupleManager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VFileManager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4BaseFileManager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VTHnFileManager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ToolsAnalysisMessenger.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4UImessenger.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4UIdirectory.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4UIcommand.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4UIparameter.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4UItokenNum.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ApplicationState.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ThreeVector.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Utility/defs.h \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4THnManager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4Threading.hh \
+ /usr/include/c++/13/condition_variable /usr/include/c++/13/future \
+ /usr/include/c++/13/bits/atomic_futex.h \
+ /usr/include/c++/13/bits/std_thread.h /usr/include/c++/13/thread \
+ /usr/include/c++/13/bits/this_thread_sleep.h \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4THnManager.icc \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4AutoLock.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/histo/h1d \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/histo/h1 \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/histo/b1 \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/histo/base_histo \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/histo/histo_data \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/histo/axes \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/histo/axis \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/eqT \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/histo/h2d \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/histo/h2 \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/histo/b2 \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/histo/h3d \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/histo/h3 \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/histo/b3 \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/histo/p1d \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/histo/p1 \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/histo/profile_data \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/histo/p2d \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/tools/histo/p2 \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ToolsAnalysisManager.icc \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4H1ToolsManager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4H2ToolsManager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4H3ToolsManager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4P1ToolsManager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4P2ToolsManager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4GenericFileManager.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4GenericFileManager.icc \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4SystemOfUnits.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4UnitsTable.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4UnitsTable.icc

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4UI_USE_TCSH -DG4VIS_USE_OPENGL -DG4VIS_USE_OPENGLQT -DG4VIS_USE_RAYTRACERX -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -isystem /home/adolfo/misoft/geant4/geant4-install/include/Geant4 -isystem /home/adolfo/misoft/CLHEP/2.4.5.3/CLHEP-install/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtOpenGL -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport
+CXX_INCLUDES = -I/home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/include -isystem /home/adolfo/misoft/geant4/geant4-install/include/Geant4 -isystem /home/adolfo/misoft/CLHEP/2.4.5.3/CLHEP-install/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtOpenGL -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport
 
 CXX_FLAGS = -W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-strings -Wpointer-arith -Woverloaded-virtual -Wno-variadic-macros -Wshadow -pipe -pthread -ftls-model=initial-exec -std=c++17  -O3 -DNDEBUG -fno-trapping-math -ftree-vectorize -fno-math-errno -O3 -DNDEBUG -fPIC
 

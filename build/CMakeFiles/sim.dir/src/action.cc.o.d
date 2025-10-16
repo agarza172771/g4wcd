@@ -1,9 +1,9 @@
-CMakeFiles/sim.dir/action.cc.o: \
- /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/action.cc \
+CMakeFiles/sim.dir/src/action.cc.o: \
+ /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/src/action.cc \
  /usr/include/stdc-predef.h \
- /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/action.hh \
+ /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/include/action.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VUserActionInitialization.hh \
- /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/generator.hh \
+ /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/include/generator.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ParticleGun.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/globals.hh \
@@ -280,7 +280,7 @@ CMakeFiles/sim.dir/action.cc.o: \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ParticleTable.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ParticleTableIterator.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ParticleTable.icc \
- /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/run.hh \
+ /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/include/run.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4UserRunAction.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4Run.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4Profiler.hh \
@@ -373,6 +373,8 @@ CMakeFiles/sim.dir/action.cc.o: \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4GenericFileManager.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4GenericFileManager.icc \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4UnitsTable.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4UnitsTable.icc \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4RunManager.hh \
  /usr/include/c++/13/list /usr/include/c++/13/bits/stl_list.h \
  /usr/include/c++/13/bits/list.tcc \
@@ -584,4 +586,5 @@ CMakeFiles/sim.dir/action.cc.o: \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/trkgdefs.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4TrackingMessenger.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4UserTrackingAction.hh \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4RunManagerKernel.hh
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4RunManagerKernel.hh \
+ /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/include/run.hh

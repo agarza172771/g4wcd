@@ -5,6 +5,8 @@
 #include "G4RunManager.hh"
 
 #include "G4AnalysisManager.hh"
+#include "G4SystemOfUnits.hh"
+#include "G4UnitsTable.hh"
 
 class MySensitiveDetector : public G4VSensitiveDetector
 {
@@ -14,6 +16,11 @@ public:
     
 private:
     virtual G4bool ProcessHits(G4Step *, G4TouchableHistory *);
+    
+    virtual void Initialize(G4HCofThisEvent*) override;                 //Agregado 14oct25
+    virtual void EndOfEvent(G4HCofThisEvent *) override;                //Agregado 14oct25
+
+    G4double fTotalEnergyDeposited;                                     //Agregado 14oct25
 };
 
 #endif

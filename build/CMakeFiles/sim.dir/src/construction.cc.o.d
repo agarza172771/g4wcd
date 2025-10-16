@@ -1,7 +1,7 @@
-CMakeFiles/sim.dir/construction.cc.o: \
- /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/construction.cc \
+CMakeFiles/sim.dir/src/construction.cc.o: \
+ /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/src/construction.cc \
  /usr/include/stdc-predef.h \
- /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/construction.hh \
+ /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/include/construction.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -347,7 +347,7 @@ CMakeFiles/sim.dir/construction.cc.o: \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ICRU90StoppingData.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4Pow.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4SystemOfUnits.hh \
- /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/detector.hh \
+ /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/include/detector.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VHit.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4Step.hh \
@@ -609,6 +609,8 @@ CMakeFiles/sim.dir/construction.cc.o: \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4GenericFileManager.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4GenericFileManager.icc \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4UnitsTable.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4UnitsTable.icc \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VisAttributes.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/graphics_reps_defs.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4Colour.hh \
@@ -687,6 +689,4 @@ CMakeFiles/sim.dir/construction.cc.o: \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4SDManager.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4SDStructure.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4HCtable.hh \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4UnitsTable.hh \
- /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4UnitsTable.icc
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4HCtable.hh

@@ -142,174 +142,6 @@ Simulation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/build
 .PHONY : Simulation/fast
 
-PMTSD.o: PMTSD.cc.o
-.PHONY : PMTSD.o
-
-# target to build an object file
-PMTSD.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/PMTSD.cc.o
-.PHONY : PMTSD.cc.o
-
-PMTSD.i: PMTSD.cc.i
-.PHONY : PMTSD.i
-
-# target to preprocess a source file
-PMTSD.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/PMTSD.cc.i
-.PHONY : PMTSD.cc.i
-
-PMTSD.s: PMTSD.cc.s
-.PHONY : PMTSD.s
-
-# target to generate assembly for a file
-PMTSD.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/PMTSD.cc.s
-.PHONY : PMTSD.cc.s
-
-action.o: action.cc.o
-.PHONY : action.o
-
-# target to build an object file
-action.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/action.cc.o
-.PHONY : action.cc.o
-
-action.i: action.cc.i
-.PHONY : action.i
-
-# target to preprocess a source file
-action.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/action.cc.i
-.PHONY : action.cc.i
-
-action.s: action.cc.s
-.PHONY : action.s
-
-# target to generate assembly for a file
-action.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/action.cc.s
-.PHONY : action.cc.s
-
-construction.o: construction.cc.o
-.PHONY : construction.o
-
-# target to build an object file
-construction.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/construction.cc.o
-.PHONY : construction.cc.o
-
-construction.i: construction.cc.i
-.PHONY : construction.i
-
-# target to preprocess a source file
-construction.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/construction.cc.i
-.PHONY : construction.cc.i
-
-construction.s: construction.cc.s
-.PHONY : construction.s
-
-# target to generate assembly for a file
-construction.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/construction.cc.s
-.PHONY : construction.cc.s
-
-detector.o: detector.cc.o
-.PHONY : detector.o
-
-# target to build an object file
-detector.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/detector.cc.o
-.PHONY : detector.cc.o
-
-detector.i: detector.cc.i
-.PHONY : detector.i
-
-# target to preprocess a source file
-detector.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/detector.cc.i
-.PHONY : detector.cc.i
-
-detector.s: detector.cc.s
-.PHONY : detector.s
-
-# target to generate assembly for a file
-detector.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/detector.cc.s
-.PHONY : detector.cc.s
-
-generator.o: generator.cc.o
-.PHONY : generator.o
-
-# target to build an object file
-generator.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/generator.cc.o
-.PHONY : generator.cc.o
-
-generator.i: generator.cc.i
-.PHONY : generator.i
-
-# target to preprocess a source file
-generator.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/generator.cc.i
-.PHONY : generator.cc.i
-
-generator.s: generator.cc.s
-.PHONY : generator.s
-
-# target to generate assembly for a file
-generator.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/generator.cc.s
-.PHONY : generator.cc.s
-
-physics.o: physics.cc.o
-.PHONY : physics.o
-
-# target to build an object file
-physics.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/physics.cc.o
-.PHONY : physics.cc.o
-
-physics.i: physics.cc.i
-.PHONY : physics.i
-
-# target to preprocess a source file
-physics.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/physics.cc.i
-.PHONY : physics.cc.i
-
-physics.s: physics.cc.s
-.PHONY : physics.s
-
-# target to generate assembly for a file
-physics.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/physics.cc.s
-.PHONY : physics.cc.s
-
-run.o: run.cc.o
-.PHONY : run.o
-
-# target to build an object file
-run.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/run.cc.o
-.PHONY : run.cc.o
-
-run.i: run.cc.i
-.PHONY : run.i
-
-# target to preprocess a source file
-run.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/run.cc.i
-.PHONY : run.cc.i
-
-run.s: run.cc.s
-.PHONY : run.s
-
-# target to generate assembly for a file
-run.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/run.cc.s
-.PHONY : run.cc.s
-
 sim.o: sim.cc.o
 .PHONY : sim.o
 
@@ -334,6 +166,150 @@ sim.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/sim.cc.s
 .PHONY : sim.cc.s
 
+src/action.o: src/action.cc.o
+.PHONY : src/action.o
+
+# target to build an object file
+src/action.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/action.cc.o
+.PHONY : src/action.cc.o
+
+src/action.i: src/action.cc.i
+.PHONY : src/action.i
+
+# target to preprocess a source file
+src/action.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/action.cc.i
+.PHONY : src/action.cc.i
+
+src/action.s: src/action.cc.s
+.PHONY : src/action.s
+
+# target to generate assembly for a file
+src/action.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/action.cc.s
+.PHONY : src/action.cc.s
+
+src/construction.o: src/construction.cc.o
+.PHONY : src/construction.o
+
+# target to build an object file
+src/construction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/construction.cc.o
+.PHONY : src/construction.cc.o
+
+src/construction.i: src/construction.cc.i
+.PHONY : src/construction.i
+
+# target to preprocess a source file
+src/construction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/construction.cc.i
+.PHONY : src/construction.cc.i
+
+src/construction.s: src/construction.cc.s
+.PHONY : src/construction.s
+
+# target to generate assembly for a file
+src/construction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/construction.cc.s
+.PHONY : src/construction.cc.s
+
+src/detector.o: src/detector.cc.o
+.PHONY : src/detector.o
+
+# target to build an object file
+src/detector.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/detector.cc.o
+.PHONY : src/detector.cc.o
+
+src/detector.i: src/detector.cc.i
+.PHONY : src/detector.i
+
+# target to preprocess a source file
+src/detector.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/detector.cc.i
+.PHONY : src/detector.cc.i
+
+src/detector.s: src/detector.cc.s
+.PHONY : src/detector.s
+
+# target to generate assembly for a file
+src/detector.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/detector.cc.s
+.PHONY : src/detector.cc.s
+
+src/generator.o: src/generator.cc.o
+.PHONY : src/generator.o
+
+# target to build an object file
+src/generator.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/generator.cc.o
+.PHONY : src/generator.cc.o
+
+src/generator.i: src/generator.cc.i
+.PHONY : src/generator.i
+
+# target to preprocess a source file
+src/generator.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/generator.cc.i
+.PHONY : src/generator.cc.i
+
+src/generator.s: src/generator.cc.s
+.PHONY : src/generator.s
+
+# target to generate assembly for a file
+src/generator.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/generator.cc.s
+.PHONY : src/generator.cc.s
+
+src/physics.o: src/physics.cc.o
+.PHONY : src/physics.o
+
+# target to build an object file
+src/physics.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/physics.cc.o
+.PHONY : src/physics.cc.o
+
+src/physics.i: src/physics.cc.i
+.PHONY : src/physics.i
+
+# target to preprocess a source file
+src/physics.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/physics.cc.i
+.PHONY : src/physics.cc.i
+
+src/physics.s: src/physics.cc.s
+.PHONY : src/physics.s
+
+# target to generate assembly for a file
+src/physics.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/physics.cc.s
+.PHONY : src/physics.cc.s
+
+src/run.o: src/run.cc.o
+.PHONY : src/run.o
+
+# target to build an object file
+src/run.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/run.cc.o
+.PHONY : src/run.cc.o
+
+src/run.i: src/run.cc.i
+.PHONY : src/run.i
+
+# target to preprocess a source file
+src/run.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/run.cc.i
+.PHONY : src/run.cc.i
+
+src/run.s: src/run.cc.s
+.PHONY : src/run.s
+
+# target to generate assembly for a file
+src/run.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/run.cc.s
+.PHONY : src/run.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -344,30 +320,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Simulation"
 	@echo "... sim"
-	@echo "... PMTSD.o"
-	@echo "... PMTSD.i"
-	@echo "... PMTSD.s"
-	@echo "... action.o"
-	@echo "... action.i"
-	@echo "... action.s"
-	@echo "... construction.o"
-	@echo "... construction.i"
-	@echo "... construction.s"
-	@echo "... detector.o"
-	@echo "... detector.i"
-	@echo "... detector.s"
-	@echo "... generator.o"
-	@echo "... generator.i"
-	@echo "... generator.s"
-	@echo "... physics.o"
-	@echo "... physics.i"
-	@echo "... physics.s"
-	@echo "... run.o"
-	@echo "... run.i"
-	@echo "... run.s"
 	@echo "... sim.o"
 	@echo "... sim.i"
 	@echo "... sim.s"
+	@echo "... src/action.o"
+	@echo "... src/action.i"
+	@echo "... src/action.s"
+	@echo "... src/construction.o"
+	@echo "... src/construction.i"
+	@echo "... src/construction.s"
+	@echo "... src/detector.o"
+	@echo "... src/detector.i"
+	@echo "... src/detector.s"
+	@echo "... src/generator.o"
+	@echo "... src/generator.i"
+	@echo "... src/generator.s"
+	@echo "... src/physics.o"
+	@echo "... src/physics.i"
+	@echo "... src/physics.s"
+	@echo "... src/run.o"
+	@echo "... src/run.i"
+	@echo "... src/run.s"
 .PHONY : help
 
 

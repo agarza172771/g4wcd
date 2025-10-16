@@ -584,7 +584,7 @@ CMakeFiles/sim.dir/sim.cc.o: \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4RayTracerX.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4UIExecutive.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VUIshell.hh \
- /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/construction.hh \
+ /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/include/construction.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4LogicalVolume.hh \
@@ -607,7 +607,7 @@ CMakeFiles/sim.dir/sim.cc.o: \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ICRU90StoppingData.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4Pow.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4SystemOfUnits.hh \
- /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/detector.hh \
+ /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/include/detector.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VReadOutGeometry.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4SensitiveVolumeList.hh \
@@ -673,7 +673,9 @@ CMakeFiles/sim.dir/sim.cc.o: \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4GenericFileManager.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4GenericFileManager.icc \
- /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/physics.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4UnitsTable.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4UnitsTable.icc \
+ /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/include/physics.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VModularPhysicsList.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VPhysicsConstructor.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4PhysicsListHelper.hh \
@@ -742,13 +744,19 @@ CMakeFiles/sim.dir/sim.cc.o: \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4EmStandardPhysics.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4OpticalPhysics.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4OpticalParameters.hh \
- /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/action.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4RadioactiveDecayPhysics.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4DecayPhysics.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4Decay.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VRestDiscreteProcess.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ParticleChangeForDecay.hh \
+ /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4DecayProcessType.hh \
+ /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/include/action.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VUserActionInitialization.hh \
- /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/generator.hh \
+ /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/include/generator.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ParticleGun.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4VPrimaryGenerator.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4ParticleTable.hh \
- /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/run.hh \
+ /home/adolfo/misoft/geant4/ejer/test4_ver_geom_08oct25/include/run.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4UserRunAction.hh \
  /home/adolfo/misoft/geant4/geant4-install/include/Geant4/G4Run.hh
